@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+​
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Social Network</title>
+</head>
+​
+<body>
+  <h1>Social Network</h1>
+  <p>Welcome to my social network</p>
+  <ul>
+  <li>
+    <a href="#/login">Login Google</a>
+  </li>
+  <li>
+    <a href="#/create">Crear cuenta</a>
+  </li>
+</ul>
+  <div id="root"></div>
+  <script type="module" src="./app.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyB8_MFbpcvE4SsHsliy-7i1gL6Hij3bhUc",
+    authDomain: "social-network-ee6ec.firebaseapp.com",
+    databaseURL: "https://social-network-ee6ec.firebaseio.com",
+    projectId: "social-network-ee6ec",
+    storageBucket: "",
+    messagingSenderId: "158135100699",
+    appId: "1:158135100699:web:f23d8750e5b5f816"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+</body>
+</html>
