@@ -1,0 +1,31 @@
+[debug] [2019-08-05T22:18:10.814Z] ----------------------------------------------------------------------
+[debug] [2019-08-05T22:18:10.819Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dubi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-08-05T22:18:10.820Z] CLI Version:   7.2.2
+[debug] [2019-08-05T22:18:10.820Z] Platform:      win32
+[debug] [2019-08-05T22:18:10.820Z] Node Version:  v10.16.0
+[debug] [2019-08-05T22:18:10.821Z] Time:          Mon Aug 05 2019 18:18:10 GMT-0400 (GMT-04:00)
+[debug] [2019-08-05T22:18:10.821Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-05T22:18:10.836Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-05T22:18:10.837Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Dubi\Desktop\SCL010-Social-Network
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[debug] [2019-08-05T22:22:35.734Z] Error: kill ENOSYS
+    at process.kill (internal/process/per_thread.js:198:13)
+    at process.listener (C:\Users\Dubi\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\signal-exit\index.js:95:15)
+    at process.emit (events.js:198:13)
+[error] 
+[error] Error: An unexpected error has occurred.
